@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: #c778dd;
+    --gray: #abb2bf;
+    --background: #282c33;
+  }
+}
+
+body {
+  font-family: "Fira Code", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
