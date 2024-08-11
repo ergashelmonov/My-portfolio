@@ -1,4 +1,5 @@
 import Navigation from "../../components/Navigation";
+import Skill from "../../components/Skill/Skill";
 
 const aboutMe = [
   "Assalomu Alaykum. Mening ismim Ergash!",
@@ -12,7 +13,7 @@ const About = () => {
   return (
     <div className="max-w-5xl w-full">
       <Navigation path="Men haqimda" des="Men kimman ?" />
-      <div className="about-me max-w-[1120px] w-full flex flex-col bg-[url('../../assets/image/about-me.png')] bg-no-repeat bg-contain bg-[top_0px_right_0px]">
+      <div className="about-me max-w-[1120px] w-full flex flex-col bg-[url('../../assets/image/about-me.png')] bg-no-repeat bg-contain bg-[top_0px_right_0px] mb-[112px]">
         <div className="max-w-[515px] flex flex-col gap-8">
           {aboutMe.map((item, index) => {
             return (
@@ -26,9 +27,9 @@ const About = () => {
           })}
         </div>
       </div>
+      <Skill />
     </div>
   );
 };
-
 
 export default About;

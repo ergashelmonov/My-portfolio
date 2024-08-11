@@ -1,7 +1,9 @@
 import Logo from "../../assets/svg/logo.svg";
 import Github from "../../assets/svg/github-icon.svg";
-import { FaTelegramPlane } from "react-icons/fa";
+import { FaLinkedin, FaTelegramPlane } from "react-icons/fa";
 import { LuInstagram } from "react-icons/lu";
+import { MdEmail } from "react-icons/md";
+
 const Footer = () => {
   return (
     <footer className="p-[32px_0_100px_0] border-t-[1px] border-t-gray w-full flex justify-center flex-shrink-0 mt-[263px]">
@@ -27,6 +29,15 @@ const Footer = () => {
               href="https://www.instagram.com/ergash_ali_elmonov/"
             >
               <LuInstagram stroke="#abb2bf" className="w-7 h-7" />
+            </a>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/ergash-elmonov-405409320/"
+            >
+              <FaLinkedin fill="#abb2bf" className="w-7 h-7" />
+            </a>
+            <a target="_blank" href="https://elmonovergash@gmail.com">
+              <MdEmail fill="#abb2bf" className="w-7 h-7" />
             </a>
           </div>
         </div>

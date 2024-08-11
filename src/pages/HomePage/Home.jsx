@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import ProjectCard from "../../components/ProjectCards/ProjectCard.jsx";
-import SkillBox from "../../components/Skill/SkillBox.jsx";
 import ProjectImg1 from "../../assets/image/project-img_1.png";
 import ProjectImg2 from "../../assets/image/project-img_2.png";
 import ProjectImg3 from "../../assets/image/project-img_3.png";
 import MainImg from "../../assets/image/main-img.png";
+import Skill from "../../components/Skill/Skill.jsx";
 
 const projectImgs = [ProjectImg1, ProjectImg2, ProjectImg3];
 const projectNames = [
@@ -22,19 +22,6 @@ const projectLinks = [
   "https://ecommerce-product-page-react-mu.vercel.app/",
   "https://bookshelterdev.netlify.app/",
   "https://dictionarywebappjs.netlify.app/",
-];
-
-const skillTitles = [
-  "Dasturlash tillari",
-  "Vositalar",
-  "Boshqalar",
-  "Kutubxonalar",
-];
-const skillInfos = [
-  "TypeScript JavaScript",
-  "VSCode Figma Git WebStorm",
-  "HTML CSS SCSS SASS",
-  "TailwindCss React Redux Redux-Tulkit",
 ];
 
 const aboutMe = [
@@ -104,20 +91,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="skills w-full max-w-[1120px] flex flex-col gap-12 mb-12 bg-[url('../../assets/image/skill-bg.png')] bg-no-repeat bg-[top_54px_left_32px] items-end">
-        <div className="flex items-center justify-between w-full">
-          <div className="flex items-center gap-4 after:block after:bg-primary after:w-[511px] after:h-[1px]">
-            <h2 className="font-medium text-[32px] text-white ">
-              <span className="text-primary">#</span>ko'nikmalar
-            </h2>
-          </div>
-        </div>
-        <div className="flex gap-4 max-w-[580px] flex-wrap justify-end">
-          {skillTitles.map((item, index) => {
-            return <SkillBox title={item} info={skillInfos[index]} />;
-          })}
-        </div>
-      </div>
+      <Skill />
 
       <div className="about-me max-w-[1120px] w-full flex flex-col bg-[url('../../assets/image/about-me.png')] bg-no-repeat bg-[top_0px_right_0px]">
         <div className="max-w-[515px] flex flex-col gap-8">

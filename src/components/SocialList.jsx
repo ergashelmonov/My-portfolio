@@ -1,6 +1,7 @@
 import Github from "../assets/svg/github-icon.svg";
 import { LuInstagram } from "react-icons/lu";
-import { FaTelegramPlane } from "react-icons/fa";
+import { FaLinkedin, FaTelegramPlane } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 const SocialList = () => {
   return (
     <div className="flex flex-col items-center gap-2  fixed top-0 left-5 before:w-[2px] before:h-[191px] before:bg-gray">
@@ -12,6 +13,15 @@ const SocialList = () => {
       </a>
       <a target="_blank" href="https://www.instagram.com/ergash_ali_elmonov/">
         <LuInstagram stroke="#abb2bf" className="w-7 h-7" />
+      </a>
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/ergash-elmonov-405409320/"
+      >
+        <FaLinkedin fill="#abb2bf" className="w-7 h-7" />
+      </a>
+      <a target="_blank" href="https://elmonovergash@gmail.com">
+        <MdEmail fill="#abb2bf" className="w-7 h-7" />
       </a>
     </div>
   );
