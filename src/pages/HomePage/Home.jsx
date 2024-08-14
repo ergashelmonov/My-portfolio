@@ -34,8 +34,8 @@ const aboutMe = [
 const Home = () => {
   return (
     <>
-      <main className="main flex justify-between p-[62px_46px_0_0] gap-[18px] items-center max-w-[1120px] w-full">
-        <div className="max-w-[537px]">
+      <main className="main flex justify-between p-[62px_46px_0_0] gap-[18px] items-center max-w-[1120px] w-full flex-wrap max-[1172px]:justify-center max-[1172px]:items-center max-[1172px]:pr-0">
+        <div className="max-w-[537px] max-[1172px]:text-center">
           <h1 className="font-semibold text-[32px] text-primary">
             Assalomu Alaykum.
           </h1>
@@ -55,7 +55,7 @@ const Home = () => {
             alt="MainImg"
             className="w-[460px] h-[380px] object-cover"
           />
-          <div className="flex min-w-[402px] h-[37px] border-solid bg-background border-[1px] border-gray items-center gap-2.5 -translate-y-[20px] relative before:w-[16px] before:h-[16px] before:bg-primary before:block p-[10px_8px]">
+          <div className="flex  border-solid bg-background border-[1px] border-gray items-center gap-2.5 -translate-y-[20px] relative before:w-[16px] before:h-[16px] before:bg-primary before:block p-[10px_8px]">
             <p className="font-medium text-gray">
               Hozirda{" "}
               <span className="text-white font-semibold">Portfoliyom</span>{" "}
@@ -65,8 +65,8 @@ const Home = () => {
         </div>
       </main>
       <div className="projects max-w-[1120px] w-full flex flex-col gap-12 relative after:w-[84px] after:h-[84px] after:bg-[url(../svg/dots.svg)] after:absolute after:bottom-[362px] after:-left-[160px]">
-        <div className="flex items-center justify-between w-full ">
-          <div className="flex items-center gap-4 after:block after:bg-primary after:w-[511px] after:h-[1px]">
+        <div className="flex items-center justify-between w-full flex-wrap">
+          <div className="flex items-center gap-4 after:block after:bg-primary after:w-[511px] after:h-[1px] max-[1077px]:after:hidden">
             <h2 className="font-medium text-[32px] text-white ">
               <span className="text-primary">#</span>Loyihalarim
             </h2>
@@ -75,7 +75,7 @@ const Home = () => {
             Hammasini ko'rish ~~{">"}
           </Link>
         </div>
-        <div className="flex gap-4 mb-[106px] justify-center">
+        <div className="flex gap-4 mb-[106px] justify-center flex-wrap">
           {projectNames.map((item, index) => {
             return (
               <ProjectCard

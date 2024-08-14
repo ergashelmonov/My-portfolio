@@ -6,8 +6,8 @@ import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className="p-[32px_0_100px_0] border-t-[1px] border-t-gray w-full flex justify-center flex-shrink-0 mt-[263px]">
-      <div className="flex  justify-between max-w-[1120px] w-full">
+    <footer className="p-[32px_0_100px_0] border-t-[1px] border-t-gray w-full flex justify-center flex-shrink-0 mt-[263px] px-14">
+      <div className="flex  justify-between max-w-[1120px] w-full max-[432px]:flex-col max-[432px]:gap-4">
         <div>
           <div className="flex items-center gap-[9px]">
             <Logo className="w-[16px] h-[16px] fill-[#fff]" />
@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
         <div>
           <h2 className="font-medium text-2xl text-white">Media</h2>
-          <div className="flex items-center gap-2 mt-2">
+          <div className="flex items-center gap-2 mt-2 ">
             <a target="_blank" href="https://github.com/ergashelmonov">
               <Github className="w-8 h-8" />
             </a>

@@ -7,8 +7,10 @@ const Layout = ({ children }) => {
   return (
     <div className="flex flex-col w-full items-center min-h-screen justify-between">
       <SocialList />
-      <Header />
-      {children}
+      <div className="max-[802px]:px-4 px-14">
+        <Header />
+        {children}
+      </div>
       <Footer />
     </div>
   );

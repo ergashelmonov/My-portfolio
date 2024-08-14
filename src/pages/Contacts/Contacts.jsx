@@ -7,7 +7,7 @@ const Contacts = () => {
   return (
     <>
       <Navigation path="bog'lanish" des="men bilan bog'lanish!" />
-      <div className="flex items-start gap-5 justify-end ">
+      <div className="flex items-start gap-5 justify-end max-[920px]:flex-col max-[596px]:items-end">
         <div className="border-[#abb2bf] border border-solid p-4">
           <h2 className="font-semibold text-base text-white mb-2">
             Menning raqammim!
@@ -21,10 +21,10 @@ const Contacts = () => {
         </div>
 
         <div className="border-[#abb2bf] border border-solid p-4">
-          <h2 className="font-semibold text-base text-white mb-2">
+          <h2 className="font-semibold text-base text-white mb-2 max-[596px]:text-base">
             Menning ijtimoiy tarmoqlardagi akauntlarim
           </h2>
-          <p className="font-normal text-base text-[#abb2bf] flex items-center gap-1 mt-4">
+          <p className="font-normal text-base text-[#abb2bf] flex items-center gap-1 mt-4 max-[596px]:text-[10px]">
             <a
               target="_blank"
               href="https://t.me/Ergash_Ali_07"
@@ -33,7 +33,7 @@ const Contacts = () => {
               <FaTelegramPlane /> https://t.me/Ergash_Ali_07
             </a>{" "}
           </p>
-          <p className="font-normal text-base text-[#abb2bf] flex items-center gap-1 mt-4">
+          <p className="font-normal text-base text-[#abb2bf] flex items-center gap-1 mt-4 max-[596px]:text-[10px]">
             <a
               target="_blank"
               href="https://github.com/ergashelmonov"
@@ -42,7 +42,7 @@ const Contacts = () => {
               <FaGithub /> https://github.com/ergashelmonov
             </a>{" "}
           </p>
-          <p className="font-normal text-base text-[#abb2bf] flex items-center gap-1 mt-4">
+          <p className="font-normal text-base text-[#abb2bf] flex items-center gap-1 mt-4 max-[596px]:text-[10px]">
             <a
               target="_blank"
               className="flex items-center gap-1"
@@ -52,7 +52,7 @@ const Contacts = () => {
               https://www.instagram.com/ergash_ali_elmonov/
             </a>
           </p>
-          <p className="font-normal text-base text-[#abb2bf] flex items-center gap-1 mt-4">
+          <p className="font-normal text-base text-[#abb2bf] flex items-center gap-1 mt-4 max-[596px]:text-[10px]">
             <a
               target="_blank"
               className="flex items-center gap-1"
@@ -62,13 +62,13 @@ const Contacts = () => {
               https://www.linkedin.com/in/ergash-elmonov-405409320/
             </a>
           </p>
-          <p className="font-normal text-base text-[#abb2bf] flex items-center gap-1 mt-4">
+          <p className="font-normal text-base text-[#abb2bf] flex items-center gap-1 mt-4 max-[596px]:text-[10px]">
             <a
               target="_blank"
               className="flex items-center gap-1"
               href="https://elmonovergash@gmail.com"
             >
-              <MdEmail fill="#abb2bf" className="w-7 h-7" />{" "}
+              <MdEmail fill="#abb2bf" />{" "}
               elmonovergash@gmail.com
             </a>
           </p>
