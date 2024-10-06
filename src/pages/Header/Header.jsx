@@ -35,7 +35,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="flex max-w-[1120px] w-full justify-between p-[32px_0_8px_0] select-none">
+      <header className="flex max-w-[1120px] w-full justify-between p-[32px_0_8px_0] select-none flex-shrink-0">
         <Link to="/">
           <div className="flex items-center justify-center gap-2">
             <Logo className="w-[16px] h-[16px] fill-[#fff]" />

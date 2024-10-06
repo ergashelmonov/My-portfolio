@@ -44,7 +44,7 @@ const projectLinks = [
 ];
 const Projects = () => {
   return (
-    <div className="max-w-5xl">
+    <div className="max-w-5xl w-full">
       <Navigation path="loyihalarim" des="men qilgan loyihalar ruyhati" />
       <div>
         <h2 className="font-medium text-[32px] text-white mb-12">
